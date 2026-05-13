@@ -8,6 +8,8 @@ cloud.google.com/go/confidentialcomputing v1.11.0 h1:BgZEmipN2oQyCDIDM+D673XCXex
 cloud.google.com/go/confidentialcomputing v1.11.0/go.mod h1:5DPgpl5/iXdRB/8KRNx3V4o8tY3/H8iHdsFmt/Vdkco=
 github.com/GoogleCloudPlatform/confidential-space/server v0.0.0-20260410183711-07bdbfebb244 h1:tAHylZKez3KlUUwKDivU3fImfzSeJU3CQYNq7RuAUKQ=
 github.com/GoogleCloudPlatform/confidential-space/server v0.0.0-20260410183711-07bdbfebb244/go.mod h1:STnMvdbs5Iknm+bo0vx8FNwak7oqiHcN54w36pCHEb4=
+github.com/GoogleCloudPlatform/confidential-space/server v0.0.0-20260513001127-5adc77d41486 h1:xxPTtK/vkLyezGn+RHbIWwGVJweLacmWGF0RtJGOGng=
+github.com/GoogleCloudPlatform/confidential-space/server v0.0.0-20260513001127-5adc77d41486/go.mod h1:s8F0JYEods/WL03WxZaGsWCnumZeeLD+WKHzspOV9u0=
 github.com/GoogleCloudPlatform/key-protection-module v0.0.0-20260506170557-c3a66d62acbf h1:QljpFSpYT4kK1VGbveXUJbQ21+PA46F1WEZd2fBGh5A=
 github.com/GoogleCloudPlatform/key-protection-module v0.0.0-20260506170557-c3a66d62acbf/go.mod h1:lL1e6DwHCKIQLhD+Wq9ClZPHypLrgY0RHHeA1DXUwUk=
 github.com/GoogleCloudPlatform/key-protection-module v0.0.0-20260513054212-f2adec2162e7 h1:tnoPTSQNFZZn3Xbvjj6olz+vqacVf1VAuX7zwgpWeLE=
@@ -46,6 +48,8 @@ github.com/google/go-configfs-tsm v0.3.3-0.20240919001351-b4b5b84fdcbc h1:SG12DW
 github.com/google/go-configfs-tsm v0.3.3-0.20240919001351-b4b5b84fdcbc/go.mod h1:EL1GTDFMb5PZQWDviGfZV9n87WeGTR/JUg13RfwkgRo=
 github.com/google/go-eventlog v0.0.3-0.20260305053119-5cd85087f9f9 h1:YDFEn5cuFcI2xNV3D8N4xpsV0y+D29s94cfyW1tGd4E=
 github.com/google/go-eventlog v0.0.3-0.20260305053119-5cd85087f9f9/go.mod h1:7huE5P8w2NTObSwSJjboHmB7ioBNblkijdzoVa2skfQ=
+github.com/google/go-eventlog v0.0.3-0.20260416001248-6807b85eecf0 h1:STyioPkz8nqMMIk3+YlyJ/WyEJZxho1YUZXu99uAbQ0=
+github.com/google/go-eventlog v0.0.3-0.20260416001248-6807b85eecf0/go.mod h1:7huE5P8w2NTObSwSJjboHmB7ioBNblkijdzoVa2skfQ=
 github.com/google/go-sev-guest v0.14.0 h1:dCb4F3YrHTtrDX3cYIPTifEDz7XagZmXQioxRBW4wOo=
 github.com/google/go-sev-guest v0.14.0/go.mod h1:SK9vW+uyfuzYdVN0m8BShL3OQCtXZe/JPF7ZkpD3760=
 github.com/google/go-tdx-guest v0.3.2-0.20250814004405-ffb0869e6f4d h1:Ff8goEP/ue2/rZT5qyoRicuySCYDbAXEZS8Cf1fgsUo=
