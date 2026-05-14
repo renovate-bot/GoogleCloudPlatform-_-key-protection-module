@@ -4,7 +4,7 @@ go 1.24.13
 
 require (
 	github.com/GoogleCloudPlatform/confidential-space/server v0.0.0-20260410183711-07bdbfebb244
-	github.com/GoogleCloudPlatform/key-protection-module v0.0.0-20260513054212-f2adec2162e7
+	github.com/GoogleCloudPlatform/key-protection-module v0.0.0-20260514133959-adf2ef87e7fa
 	github.com/google/go-tpm v0.9.8
 	github.com/google/go-tpm-tools v0.4.9-0.20260325175049-22911efba9e5
 	github.com/google/go-tpm-tools/agent v0.0.0-20260424173438-cf6db90d8918
