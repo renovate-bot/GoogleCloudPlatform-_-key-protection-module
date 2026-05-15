@@ -56,6 +56,8 @@ github.com/google/go-tpm-tools v0.4.9-0.20260325175049-22911efba9e5 h1:WKRLDs3+G
 github.com/google/go-tpm-tools v0.4.9-0.20260325175049-22911efba9e5/go.mod h1:2rzQ27Y/YELRdpqlvs3QMwvkjjyoefJCbxeplmvibLs=
 github.com/google/go-tpm-tools/agent v0.0.0-20260424173438-cf6db90d8918 h1:krCvf1QatG1db6zGoXeFh2JC54Txqerc5MogPqZkQvA=
 github.com/google/go-tpm-tools/agent v0.0.0-20260424173438-cf6db90d8918/go.mod h1:Zw9x6XKxuUd4UfGpNcmh7V3uGAXyTAAQGesGqBJZxvw=
+github.com/google/go-tpm-tools/agent v0.0.0-20260514233918-9b030a617ffa h1:J9bajQsciPFvOqsLNU53cZ7iJFQ1ZSdvyGE5so3vcxQ=
+github.com/google/go-tpm-tools/agent v0.0.0-20260514233918-9b030a617ffa/go.mod h1:Zw9x6XKxuUd4UfGpNcmh7V3uGAXyTAAQGesGqBJZxvw=
 github.com/google/go-tpm-tools/verifier v0.0.0-20260424173438-cf6db90d8918 h1:dxRJ/0zHsZmVni6/Aov+rE4ZHl/hUiaVvVgsAoJSjTQ=
 github.com/google/go-tpm-tools/verifier v0.0.0-20260424173438-cf6db90d8918/go.mod h1:kZCi3VMgu2uZMhc5KJiBcBviHwh1l91Onli4m7zLmQw=
 github.com/google/go-tspi v0.3.0 h1:ADtq8RKfP+jrTyIWIZDIYcKOMecRqNJFOew2IT0Inus=

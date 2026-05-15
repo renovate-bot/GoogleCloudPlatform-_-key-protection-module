@@ -7,7 +7,7 @@ require (
 	github.com/GoogleCloudPlatform/key-protection-module v0.0.0-20260513054212-f2adec2162e7
 	github.com/google/go-tpm v0.9.8
 	github.com/google/go-tpm-tools v0.4.9-0.20260325175049-22911efba9e5
-	github.com/google/go-tpm-tools/agent v0.0.0-20260424173438-cf6db90d8918
+	github.com/google/go-tpm-tools/agent v0.0.0-20260514233918-9b030a617ffa
 	google.golang.org/grpc v1.80.0
 	google.golang.org/protobuf v1.36.11
 )
