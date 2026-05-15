@@ -945,6 +945,9 @@ func (s *Server) startHeartbeat(ctx context.Context) {
 	ticker := time.NewTicker(heartbeatInterval)
 	defer ticker.Stop()
 
+	// Perform an initial heartbeat immediately upon startup
+	s.performHeartbeat(ctx, client, &cachedToken)
+
 	for {
 		select {
 		case <-ctx.Done():
