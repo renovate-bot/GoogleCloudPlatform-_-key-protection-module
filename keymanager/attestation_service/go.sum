@@ -58,6 +58,8 @@ github.com/google/go-tpm-tools/agent v0.0.0-20260424173438-cf6db90d8918 h1:krCvf
 github.com/google/go-tpm-tools/agent v0.0.0-20260424173438-cf6db90d8918/go.mod h1:Zw9x6XKxuUd4UfGpNcmh7V3uGAXyTAAQGesGqBJZxvw=
 github.com/google/go-tpm-tools/verifier v0.0.0-20260424173438-cf6db90d8918 h1:dxRJ/0zHsZmVni6/Aov+rE4ZHl/hUiaVvVgsAoJSjTQ=
 github.com/google/go-tpm-tools/verifier v0.0.0-20260424173438-cf6db90d8918/go.mod h1:kZCi3VMgu2uZMhc5KJiBcBviHwh1l91Onli4m7zLmQw=
+github.com/google/go-tpm-tools/verifier v0.0.0-20260514233918-9b030a617ffa h1:P/eT1ggP4VZeP3+Z415w5vMMDe65UUnC/BbGQ9Feuv0=
+github.com/google/go-tpm-tools/verifier v0.0.0-20260514233918-9b030a617ffa/go.mod h1:kZCi3VMgu2uZMhc5KJiBcBviHwh1l91Onli4m7zLmQw=
 github.com/google/go-tspi v0.3.0 h1:ADtq8RKfP+jrTyIWIZDIYcKOMecRqNJFOew2IT0Inus=
 github.com/google/go-tspi v0.3.0/go.mod h1:xfMGI3G0PhxCdNVcYr1C4C+EizojDg/TXuX5by8CiHI=
 github.com/google/logger v1.1.1 h1:+6Z2geNxc9G+4D4oDO9njjjn2d0wN5d7uOo0vOIW1NQ=

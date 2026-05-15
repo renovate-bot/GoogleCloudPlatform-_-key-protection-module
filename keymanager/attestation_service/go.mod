@@ -53,6 +53,6 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260203192932-546029d2fa20 // indirect
 )
 
-replace github.com/google/go-tpm-tools/verifier => github.com/google/go-tpm-tools/verifier v0.0.0-20260424173438-cf6db90d8918
+replace github.com/google/go-tpm-tools/verifier => github.com/google/go-tpm-tools/verifier v0.0.0-20260514233918-9b030a617ffa
 
 replace github.com/GoogleCloudPlatform/key-protection-module => ../../
