@@ -25,6 +25,8 @@ substitutions:
   _CS_PROJECT_ID: ''
   _CS_REPO_LOCATION: 'us'
   _CS_REPO_NAME: 'key-protection-module-images'
+  _ACOS_IMAGE_TRIGGER_TOPIC: ''
+  _ACOS_IMAGE_FLOW_ID: ''
 
 steps:
   # Fetch git submodules
@@ -255,6 +257,21 @@ steps:
         # Tag and push 'latest' versioned image
         docker tag ${LOCATION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/${_IMAGE_NAME}:${SHORT_SHA} ${_CS_REPO_LOCATION}-docker.pkg.dev/${_CS_PROJECT_ID}/${_CS_REPO_NAME}/${_IMAGE_NAME}:${_IMAGE_TAG}
         docker push ${_CS_REPO_LOCATION}-docker.pkg.dev/${_CS_PROJECT_ID}/${_CS_REPO_NAME}/${_IMAGE_NAME}:${_IMAGE_TAG}
+
+  # Final step: Trigger downstream CI pipeline via Pub/Sub
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    id: TriggerDownstreamCI
+    waitFor: ['ReleaseLatest', 'ReleaseToCSRegistry']
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        if [[ -z "${_ACOS_IMAGE_TRIGGER_TOPIC}" ]] || [[ -z "${_ACOS_IMAGE_FLOW_ID}" ]]; then
+          echo "No downstream topic or flow ID provided, skipping trigger."
+          exit 0
+        fi
+        gcloud pubsub topics publish projects/${PROJECT_ID}/topics/${_ACOS_IMAGE_TRIGGER_TOPIC} \
+          --message='{"flow": "${_ACOS_IMAGE_FLOW_ID}", "parameters": {"_OVERWRITE_REF_SHA": "${SHORT_SHA}"}, "gitParameters": {"commitSha": "${SHORT_SHA}"}}'
 
 images:
   - '${LOCATION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/${_IMAGE_NAME}:${SHORT_SHA}'
